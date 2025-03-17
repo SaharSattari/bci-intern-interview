@@ -52,7 +52,7 @@ pip install -r requirements.txt
 To run Task 1, execute the following command:
 
 ```bash
-python src/ssvep-classifier/ssvep_main.py [--tsfreshfeatures] [--cross_val]
+python src/ssvep_classifier/ssvep_main.py [--tsfreshfeatures] [--cross_val]
 ```
 
 ### Task 2: P300 Visualization
@@ -60,7 +60,7 @@ python src/ssvep-classifier/ssvep_main.py [--tsfreshfeatures] [--cross_val]
 To run Task 2, execute:
 
 ```bash
-python src/p300-analysis/p300_main.py --subject_name <subject number> [--spatial_filtering] 
+python src/p300_analysis/p300_main.py --subject_name <subject number> [--spatial_filtering] 
 ```
 
 - subject_name: Name of the subject. (e.g. 0)
@@ -71,11 +71,11 @@ python src/p300-analysis/p300_main.py --subject_name <subject number> [--spatial
 To run Task 5, execute:
 
 ```bash
-python src/attention-clustering/attention_main.py
+python src/attention_clustering/attention_main.py
 ```
 
 To run the test, run with the test flag:
 
 ```bash
-python src/attention-clustering/attention_main.py --test
+python src/attention_clustering/attention_main.py --test
 ```
